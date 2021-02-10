@@ -24,32 +24,96 @@ header{
     background: #ccc;
     width:0.95rem;
     height:0.95rem;
-    border-radius:50%;
+    border-radius: 50%;
 }
 .sectionTitle{
     margin-top:0.29rem;
-    margin-left:0.26rem;
-    background: #f6f8f7;
+    margin-left:0.26rem; 
     width:4.83rem;
-}
-.sectionTitle img{
-    width:0.2rem;
-    height:0.2rem;
-    margin-top:0.14rem;
-    margin-left:0.14rem;  
+    height: 0.43rem;
+    font-size:0.15rem; 
+    line-height: 0.43rem;
+    background: #f6f8f7 url(images/提示叉号_03.png) 0.1rem  center no-repeat;
+    background-size:0.2rem ;
+    color:#727378;
+    border-bottom: 2px solid #f3f5f4
 }
 .sectionTitle-sp1{ 
     width: 3.6rem;
     height:0.43rem;
     font-size:0.15rem; 
     color: #5c5d62;
-    display: inline-block;
+    float: left;
+    margin-left: 0.34rem;
 }
-.sectionTitle-sp3{ 
-    width: 0.5rem;
-    height:0.43rem;
-    font-size:0.15rem; 
+.sectionTitle-sp3,.sectionTitle-sp2{ 
     color: #0265ca;
     font-weight: 500;
-    display: inline-block;
+    float: left;
 }
+.sectionTitle-sp3{
+    width: 0.5rem;
+    height:0.43rem;
+    font-weight: 900;
+    color: #1760cf}
+main{
+    margin-top: 0.3rem;
+    margin-left: 0.11rem;
+}
+.mainTltle{
+    display: flex;
+    justify-content: flex-start;
+    height:0.22rem;
+}
+.mainTltleSpan{
+    font-size: 0.19rem;
+    width:4.15rem;
+}
+.mainDiv{ 
+    display: flex;
+    justify-content:flex-start;
+    font-size: 0.13rem;
+    text-align: center
+}
+main .mainDiv img{
+    width:1.03rem;
+    height:0.9rem; 
+}
+section{
+    padding-bottom:0.21rem;
+    border-bottom: #e4e4e4 solid 0.05rem; 
+}
+section div{display: flex}
+section div img:first-child{
+    width:0.6rem;
+    height:0.83rem;
+}
+section div img:last-child{
+    width:0.33rem;
+    height:0.22rem;
+    margin-top: 0.31rem;
+}
+.section-1{
+    font-size: 0.2rem;
+    font-weight:400rem;
+    line-height: 0.83rem;
+    width: 0.83rem
+}
+.section-2{
+    font-size: 0.16rem;
+    font-weight:400rem;
+    line-height: 0.83rem;
+    width: 3.24rem;
+    text-align: right;
+    color: #b1b3b2;
+}
+foot{
+    display: flex;
+    justify-content: flex-start;
+}
+foot img{height:0.74rem}
+.footImage-1{width:1.1rem;}
+.footImage-2{width:1.04rem;}
+.footImage-3{width:1.02rem;}
+.footImage-4{width:1.14rem;}
+.footImage-5{width:1.14rem;}
