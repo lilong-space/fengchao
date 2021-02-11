@@ -1,0 +1,180 @@
+*{margin: 0px;padding: 0px}
+li{list-style:none}
+html{
+    font-size:18.52vw;
+    /* font-family: 'Times New Roman', Times, serif */
+}
+html,body{
+    height: 100%;
+    color: #babdc6;
+    position: relative;
+}
+header{
+    background:#096efe;
+    background-size:100% 3.75rem; 
+    width: 100%;
+    height:0.84rem;
+    line-height: 0.84rem;
+    color: #ffffff;
+    font-size: 0.2rem;
+    /* justify-content: flex-start; */
+}
+header div{
+    margin: 0 0.2rem;
+    display:inline-block;
+    float: left;
+}
+header div:first-child{
+    font-weight: 600; 
+}
+header:first-child{font-size:0.23rem}
+header img{
+    height:0.54rem;
+    margin-top: 0.15rem;
+    display: inline-block;
+    float: right;
+}
+section{font-size: 0.16rem;
+    line-height:0.35rem; 
+    margin-top: 0.11rem;
+    margin-bottom: 0.11rem;
+    color: #acb1b7;
+    height:0.35rem;}
+section div{
+    float: left;
+    margin-left:0.43rem;
+}
+section .show{
+    color: #000;
+    font-weight: 400;
+    border-radius:0.35rem;
+    background: #f4f6f5; 
+}
+section img{
+    width:0.26rem;
+    height:0.34rem;
+}
+section span{
+    float:right;
+    /* display: inline-block; */
+
+}
+.title{
+    line-height:0.61rem;
+    margin: 0 0.16rem 0 0.23rem;
+    width:5.01rem;
+    height: 0.6rem;
+    position: relative;
+}
+.title span:first-child{
+    font-weight: 700;
+    font-size:0.2rem;
+    float: left; 
+    color: #000;
+}
+.title span:last-child{
+    font-size:0.16rem; 
+    position: absolute;
+    right: 0;
+    padding-right: 0.3rem;
+    background: url(images/箭头_03.png) no-repeat center right;
+    background-size:40% 
+}
+main{
+    margin-left:0.17rem;
+    overflow: hidden; 
+    display: flex;
+    position: absolute;
+    left: 0;
+    justify-content: flex-start;
+    padding-bottom:0.22rem;
+}
+main img{
+    width:1.85rem;
+    height:2.34rem;
+}
+footer{
+    position: absolute;
+    left: 0;
+    top:4.85rem;
+    border-top:0.1rem #f5f9fc solid;
+    
+}
+footer div{
+    width:5.07rem;
+    margin-left:0.17rem;
+}
+.footerTitle{
+    position: relative;
+    width: 5.07rem;
+    line-height: 0.56rem;
+    margin-top: 0.12rem;
+    height: 0.56rem;
+}
+.footerTitle span:first-child{
+    color:#000;
+    font-weight: 700;
+    font-size:0.2rem;
+    float: left;;
+}
+.footerTitle span:last-child{
+    color:#6193d0;
+    font-weight: 600;
+    font-size:0.2rem;
+   float: right;
+}
+.jobIntroduction{ height:0.28rem;}
+.jobIntroduction span{
+    background: #f6f7f9;
+    border-radius:0.03rem 0.04rem;
+    font-size:0.13rem;
+    margin:0 0.05rem; 
+    line-height: 0.28rem;
+    float: left;
+    display: inline-block;
+    padding:0 0.1rem; 
+}
+.company{
+    font-size:0.14rem;
+    line-height: 0.42rem;
+    float: left;
+    color: #000;
+}
+.company span{ 
+    margin:0 0.08rem;
+}
+.hrInformation{
+    position: relative;
+    width:5.07rem;
+    height: 0.4rem; 
+    top:0.38rem
+}
+.hrInformation img{
+    position: absolute;
+    top:0;
+    left:0;
+    border-radius:50%;
+    width:0.4rem;
+    height:0.4rem;
+}
+.hrInformation span{
+    font-size:0.13rem;
+    line-height: 0.4rem;
+    position: absolute;
+    top:0;
+    left:0.5rem;
+    color: #000;
+    font-weight: 300;
+}
+foot{
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+    bottom: 0;
+}
+foot img{height:0.74rem}
+.footImage-1{width:1.1rem;}
+.footImage-2{width:1.04rem;}
+.footImage-3{width:1.02rem;}
+.footImage-4{width:1.14rem;}
+.footImage-5{width:1.14rem;}
